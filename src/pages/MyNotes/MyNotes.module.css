@@ -1,0 +1,72 @@
+.Container {
+  padding: 6.5rem;
+}
+.Head {
+  text-align: center;
+  font-size: 2rem;
+  color: #141414;
+  margin-bottom: 3rem;
+}
+
+.MyNotes {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(20rem, 1fr));
+  grid-gap: 5rem;
+}
+
+.Profile {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProfileContainer {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 232, 232);
+  border-radius: 2rem;
+}
+
+.Profile img {
+  height: 5rem;
+}
+.Profile h1 {
+  margin-left: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+@media (max-width: 950px) {
+  .MyNotes {
+    grid-template-columns: repeat(3, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .MyNotes {
+    grid-template-columns: repeat(3, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .MyNotes {
+    grid-template-columns: repeat(2, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .MyNotes {
+    grid-template-columns: repeat(1, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+  }
+}

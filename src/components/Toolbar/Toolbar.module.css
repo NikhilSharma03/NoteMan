@@ -1,0 +1,43 @@
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #731dd8;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.MainHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainHead img {
+  height: 4rem;
+  margin: 1.25rem 3rem;
+  margin-right: 1.5rem;
+}
+
+.MainHead label {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.SDMenu {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .Nav {
+    display: none;
+  }
+  .SDMenu {
+    display: flex;
+  }
+}
+
+.SDMenu svg {
+  height: 5rem;
+  fill: black;
+}

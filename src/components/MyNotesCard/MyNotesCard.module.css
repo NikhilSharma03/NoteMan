@@ -1,0 +1,24 @@
+.MyNotesCard a {
+  text-decoration: none;
+}
+
+.MyNotesCard a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.MyNotesCard a:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.MyNotesCard a h1 {
+  color: #141414;
+  margin-top: 1.5rem;
+  font-size: 1.75rem;
+}

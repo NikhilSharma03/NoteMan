@@ -1,0 +1,89 @@
+.Form {
+  padding: 2.5rem;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  border-radius: 0.5rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 40%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.Button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  transition: all 0.4s;
+  margin-top: 2rem;
+  background-color: #731dd8;
+  color: white;
+  border: 0.2rem solid #731dd8;
+}
+.Button:hover {
+  background-color: white;
+  color: #731dd8;
+}
+
+.Switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Switch label {
+  margin: 0 1.25rem;
+  color: #141414;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.Switch input {
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  background-color: #731dd8;
+  height: 2rem;
+  width: 5rem;
+  position: relative;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.Switch input::after {
+  content: '';
+  border-radius: 2rem;
+  display: inline;
+  width: 2rem;
+  height: 100%;
+  border: 1px solid #141414;
+  background-color: white;
+  position: absolute;
+  top: -1px;
+  transition: all 0.4s;
+}
+
+.Switch input:checked::after {
+  transform: translateX(130%);
+}
+
+@media (max-width: 1000px) {
+  .Form {
+    width: 60%;
+  }
+}
+@media (max-width: 550px) {
+  .Form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Form {
+    width: 90%;
+  }
+}

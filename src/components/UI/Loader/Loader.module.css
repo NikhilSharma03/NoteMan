@@ -1,0 +1,29 @@
+.loader {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh auto;
+}
+
+@keyframes load3 {
+  50% {
+    transform: rotatez(180deg) scale(1.5);
+    border-style: dotted;
+  }
+  100% {
+    transform: rotatez(360deg) scale(0.9);
+  }
+}
+.loader::before {
+  content: '';
+  color: white;
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border-radius: 50%;
+  border: 15px solid blue;
+  border-color: #1565c0 #26c6da;
+  animation: load3 2s infinite;
+}

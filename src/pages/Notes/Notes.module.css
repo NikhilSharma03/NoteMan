@@ -1,0 +1,14 @@
+.Notes {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NoAddedText {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  color: #141414;
+  text-align: center;
+}

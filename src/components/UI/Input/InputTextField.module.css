@@ -1,0 +1,16 @@
+.InputField {
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  outline: none;
+  transition: all 0.4s;
+  border: 0.2rem solid transparent;
+  color: #141414;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.InputField:focus {
+  border: 0.2rem solid cyan;
+}
