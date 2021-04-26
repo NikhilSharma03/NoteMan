@@ -92,7 +92,7 @@ const AddNotes = props => {
         }
     
         setLoading(true)
-        Axios.post('https://notemanapp-default-rtdb.firebaseio.com/Noteman.json?auth='+token,userData)
+        Axios.post('?auth='+token,userData)
         .then(() => {
             setLoading(false)
             setDataSuccess("Notes Added Successfully")
