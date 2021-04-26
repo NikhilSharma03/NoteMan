@@ -15,7 +15,7 @@ const Notes = props => {
     const token = useSelector(state => state.auth.token)
 
     useEffect(() => {
-        Axios.get(`https://notemanapp-default-rtdb.firebaseio.com/Noteman.json?auth=${token}&orderBy="userId"&equalTo="${userId}"`)
+        Axios.get(``)
         .then(res => {
             let allData = []
             Object.keys(res.data).map(id => {
@@ -30,7 +30,7 @@ const Notes = props => {
 
     const deleteHandler = (id) => {
         setLoading(true)
-        Axios.delete(`https://notemanapp-default-rtdb.firebaseio.com/Noteman/${id}.json?auth=${token}`)
+        Axios.delete(``)
         .then(() => {
             setFetchData(fetchData => fetchData.filter(item => item.id !== id))
             setLoading(false)
