@@ -50,10 +50,10 @@ const logOutTimer = (expTime) => {
 
 export const auth = (email,password,isLogin) => dispatch => {
     dispatch(authStart())
-    let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyB3_ISI4sAeuWhOZQO2-f7BFHyF0UCxnDw'
+    let url = ''
 
     if(!isLogin){
-        url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyB3_ISI4sAeuWhOZQO2-f7BFHyF0UCxnDw'
+        url = ''
     }
 
     Axios.post(url,{
