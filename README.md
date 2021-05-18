@@ -1,12 +1,35 @@
-Project Demo :- https://notemanapp.web.app/
+# Noteman
 
-The Project is build with ReactJS and firebase.
+## Description
 
-Install Note modules by using "npm install" or "npm i" in the root directory where the package.json file is residing.
+Online web application to store school notes.
 
+- A header section with the logo.
+- Support different subjects.
+- Firebase Realtime Storage.
+- Firebase Authentication.
+
+## Demo
+
+https://notemanapp.web.app/
+
+
+## Setup and Installation
+
+```
+npm install
+```   
+
+```
+npm start
+```   
+
+```
 **Before running the app with "npm start" please update firebase links with your firebase account in the js file residing following directorys:**
 
 * "src/store/actions" 
 * "src/pages/Notes/" 
 * "src/pages/AddNotes/" 
+```
+
 
