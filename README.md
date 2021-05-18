@@ -32,4 +32,9 @@ npm start
 * "src/pages/AddNotes/" 
 ```
 
+## Built With
 
+- ReactJs
+- Redux
+- Firebase
+- CSS
