@@ -11,7 +11,7 @@ Online web application to store school notes.
 
 ## Demo
 
-https://onlinecurrencyconverterapp.web.app/
+https://notemanapp.web.app/
 
 
 ## Setup and Installation
@@ -24,3 +24,9 @@ npm install
 npm start
 ```   
 
+## Built With
+
+- ReactJs
+- Redux
+- Firebase
+- CSS
