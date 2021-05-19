@@ -11,7 +11,7 @@ Online web application to store school notes.
 
 ## Demo
 
-https://notemanapp.web.app/
+https://onlinecurrencyconverterapp.web.app/
 
 
 ## Setup and Installation
@@ -24,17 +24,3 @@ npm install
 npm start
 ```   
 
-```
-**Before running the app with "npm start" please update firebase links with your firebase account in the js file residing following directorys:**
-
-* "src/store/actions" 
-* "src/pages/Notes/" 
-* "src/pages/AddNotes/" 
-```
-
-## Built With
-
-- ReactJs
-- Redux
-- Firebase
-- CSS
