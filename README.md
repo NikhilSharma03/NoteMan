@@ -30,3 +30,4 @@ npm start
 - Redux
 - Firebase
 - CSS
+- Swiper
