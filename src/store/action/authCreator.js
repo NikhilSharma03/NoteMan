@@ -50,10 +50,10 @@ const logOutTimer = (expTime) => {
 
 export const auth = (email,password,isLogin) => dispatch => {
     dispatch(authStart())
-    let url = ''
+    let url = process.env.REACT_APP_LOGIN_API
 
     if(!isLogin){
-        url = ''
+        url = process.env.REACT_APP_SIGNUP_API
     }
 
     Axios.post(url,{
