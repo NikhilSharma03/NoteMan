@@ -92,7 +92,7 @@ const AddNotes = props => {
         }
     
         setLoading(true)
-        Axios.post('?auth='+token,userData)
+        Axios.post(process.env.REACT_APP_POST_NOTE_API+'?auth='+token,userData)
         .then(() => {
             setLoading(false)
             setDataSuccess("Notes Added Successfully")
