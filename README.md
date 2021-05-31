@@ -11,8 +11,9 @@ Online web application to store school notes.
 
 ## Demo
 
+```
 https://notemanapp.web.app/
-
+```
 
 ## Setup and Installation
 
