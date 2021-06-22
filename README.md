@@ -8,6 +8,7 @@ Online web application to store school notes.
 - Support different subjects.
 - Firebase Realtime Storage.
 - Firebase Authentication.
+- Different Subjects to store notes.
 
 ## Demo
 
