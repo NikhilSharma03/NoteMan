@@ -9,6 +9,7 @@ Online web application to store school notes.
 - Firebase Realtime Storage.
 - Firebase Authentication.
 - Different Subjects to store notes.
+- Single Page Application(SPA)
 
 ## Demo
 
