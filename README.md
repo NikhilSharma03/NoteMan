@@ -11,6 +11,7 @@ Online web application to store school notes.
 - Different Subjects to store notes.
 - Single Page Application(SPA)
 
+
 ## Demo
 
 ```
