@@ -1,4 +1,8 @@
 # Noteman
+<div align="center">
+  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/NikhilSharma03/NoteMan)   
+</div>
 
 ## Description
 
