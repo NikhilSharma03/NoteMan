@@ -10,7 +10,7 @@
 
 ## Description
 
-Online web application to store school notes.
+Online web application to store school/rough notes.
 
 - A header section with the logo.
 - Support different subjects.
