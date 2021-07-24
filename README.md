@@ -10,13 +10,13 @@
 
 ## Description
 
-Online web application to store school/rough notes.
+Online web application to store school/rough notes on the go.
 
 - A header section with the logo.
 - Support different subjects.
 - Firebase Realtime Storage.
 - Firebase Authentication.
-- Different Subjects to store notes.
+- Different Subjects to store different notes.
 - Single Page Application(SPA)
 
 
