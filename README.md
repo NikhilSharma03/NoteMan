@@ -18,6 +18,7 @@ Online web application to store school/rough notes on the go.
 - Firebase Authentication.
 - Different Subjects to store different notes.
 - Single Page Application(SPA)
+- Different Subjects
 
 
 ## Demo
