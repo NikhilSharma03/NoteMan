@@ -6,6 +6,9 @@ Noteman 📓 is an online web 💻 application to store school/rough notes on th
 
 </div>
   
+<br/>
+<br/>
+ 
 - A header section with the logo.
 - Support different subjects.
 - Firebase Realtime Storage.
